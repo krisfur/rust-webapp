@@ -1,0 +1,56 @@
+:root {
+  --base: #1e1e2e;
+  --mantle: #181825;
+  --crust: #11111b;
+  --text: #cdd6f4;
+  --subtext1: #bac2de;
+  --subtext0: #a6adc8;
+  --surface0: #313244;
+  --surface1: #45475a;
+  --surface2: #585b70;
+  --overlay0: #6c7086;
+  --overlay1: #7f849c;
+  --overlay2: #9399b2;
+  --blue: #89b4fa;
+  --green: #a6e3a1;
+  --red: #f38ba8;
+  --yellow: #f9e2af;
+  --peach: #fab387;
+  --pink: #f5c2e7;
+  --mauve: #cba6f7;
+  --teal: #94e2d5;
+  --sky: #89dceb;
+  --sapphire: #74c7ec;
+  --lavender: #b4befe;
+}
+
+body {
+  background-color: var(--base);
+  color: var(--text);
+  font-family: "Segoe UI", sans-serif;
+  margin: 2rem;
+}
+
+button {
+  background-color: var(--surface1);
+  color: var(--text);
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--surface2);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--surface2);
+}
+
+.chart-container {
+  max-width: 800px;
+  height: 400px;
+  margin: 2rem auto;
+  background-color: var(--mantle);
+  padding: 1rem;
+  border-radius: 12px;
+}
